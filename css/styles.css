@@ -763,7 +763,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    padding: 72px 24px;
+    padding: 72px 24px 24px;
 
     min-height: 576px;
     min-width: 408px;
@@ -809,18 +809,18 @@ header {
 }
 
 .modal-title {
-    
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
 
-
     text-align: center;
     letter-spacing: 0.02em;
 
-
     color: #2E2F42;
-
 }
 
 .modal-form {
@@ -859,7 +859,8 @@ header {
 }
 
 .form-input-field:hover,
-.form-input-field:focus {
+.form-input-field:focus,
+.form-input-field:focus-visible {
     border: 1px solid var(--link-color);
 }
 
