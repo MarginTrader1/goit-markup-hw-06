@@ -394,29 +394,63 @@
                     <use href="./images/symbol-defs.svg#icon-close-button"></use>
                 </svg>
             </button>
+
             <h2 class="modal-title">Leave your contacts and we will call you back</h2>
+
             <form class="modal-form">
+
                 <label class="form-input">
                     <span class="form-input-title">Name</span> 
-                    <input type="text" name="name" class="form-input-field" placeholder=" ">
+                    <div class="form-input-position">
+                        <input type="text" name="name" class="form-input-field" placeholder=" ">
+                        <div class="field-image">
+                            <svg class="field-icon" width="12" height="12">
+                                <use href="./images/symbol-defs.svg#icon-person"></use>
+                            </svg>
+                        </div>
+                    </div>
                 </label>
+
                 <label class="form-input">
                     <span class="form-input-title">Phone</span>
-                    <input type="phone" name="phone" class="form-input-field" placeholder=" ">
+                    <div class="form-input-position">
+                        <input type="tel" name="phone" class="form-input-field" placeholder=" ">
+                        <div class="field-image">
+                            <svg class="field-icon" width="13" height="13">
+                                <use href="./images/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                        </div>
+                    </div>
                 </label>
+
                 <label class="form-input">
-                    <span class="form-input-title">Email</span>
-                    <input type="email" name="email" class="form-input-field" placeholder=" ">
+                    <span class="form-input-title">Email</span> 
+                    <div class="form-input-position">
+                        <input type="email" name="email" class="form-input-field" placeholder=" ">
+                        <div class="field-image">
+                            <svg class="field-icon" width="15" height="12">
+                                <use href="./images/symbol-defs.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                    </div>
                 </label>
+
                 <label class="form-input">
                     <span class="form-input-title">Comment</span>
-                    <textarea name="comment" class="form-input-field" rows="6" placeholder="Text input"></textarea>
+                    <textarea name="comment" rows="6" placeholder="Text input" class="form-input-comment"></textarea>
                 </label>
             </form>
+
             <label class="modal-checkbox">
-                <input type="checkbox" name="checkbox">
+                <input type="checkbox" name="checkbox" class="modal-checkbox-form visually-hidden">
+                <div class="checkbox-image">
+                    <svg class="checkbox-icon" width="15" height="12">
+                        <use href="./images/symbol-defs.svg#icon-click"></use>
+                    </svg>
+                </div>
                 <span class="form-input-title">I accept the terms and conditions of the <a href="">Privacy Policy</a></span>
             </label>
+
             <button type="submit" class="modal-send-button">Send</button>
         </div>
     </div>
